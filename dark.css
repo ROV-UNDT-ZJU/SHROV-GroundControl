@@ -18,25 +18,39 @@ Disabled Colour: #515151
 /* QLabel */
 QLabel { 
 	color: white; 
-	font-size: 12px;
+	font-size: 14px;
 	font-family: Arial;
 	/* font-weight: Bold; */
 }
 
-QLabel#brightness_label { 
+QLabel#brightness_label, 
+QLabel#servo_angle_label 
+{ 
 	color: orange; 
 	font-weight: Bold;
 }
 
-QLabel#servo_angle_label { 
+/* RovMonitor 内 的 label 颜色设置 */
+QLabel#yaw_label, 
+QLabel#roll_label,
+QLabel#pitch_label, 
+QLabel#roll_label,
+QLabel#depth_label, 
+QLabel#altimeter_label,
+QLabel#location_label, 
+QLabel#cabin_temperature_label,
+QLabel#cabin_humidity_label, 
+QLabel#cpu_temperature_label,
+QLabel#cabin_water_level_label
+{ 
 	color: orange; 
-	font-weight: Bold;
 }
-/*
-QLabel#serialNo {
-	font-size:10px;
-	font-weight:normal;
-}*/
+
+/* 欢迎页面相关 */
+QLabel#welcome_page_background { 
+	background-color: #424242;
+}
+
 
 QLabel#version {
 	color: #888888; 
@@ -46,9 +60,11 @@ QLabel#version {
 QPushButton { 
 	background-color: rgba(0, 0, 0, 0); 
 	color: #FFFFFF; 
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: Bold;
 }
+
+
   
 QPushButton:hover { 
 	background-color: rgba(0, 0, 0, 0);	

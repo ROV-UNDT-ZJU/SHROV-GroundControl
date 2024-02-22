@@ -41,7 +41,8 @@ QLabel#location_label,
 QLabel#cabin_temperature_label,
 QLabel#cabin_humidity_label, 
 QLabel#cpu_temperature_label,
-QLabel#cabin_water_level_label
+QLabel#cabin_water_level_label,
+QLabel#extern_temperature_label
 { 
 	color: orange; 
 }

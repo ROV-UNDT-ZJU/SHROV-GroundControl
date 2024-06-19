@@ -1,0 +1,18 @@
+[
+    {
+        "plugin_name":"Poweroff",
+        "plugin_dir": "./Plugins/ssh_poweroff/ssh_poweroff.exe",
+        "plugin_arg": "./Plugins/sshConfig.json",
+        "plugin_ico": ""
+    },
+    {
+        "plugin_name":"XCOM",
+        "plugin_dir": "./Plugins/XCOM_V2.3.exe",
+        "plugin_ico": ""
+    },
+    {
+        "plugin_name":"XNET",
+        "plugin_dir": "./Plugins/XNET.exe",
+        "plugin_ico": ""
+    }
+]

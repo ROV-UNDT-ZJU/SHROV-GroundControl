@@ -63,6 +63,8 @@ QPushButton {
 	color: #FFFFFF; 
 	font-size: 14px;
 	font-weight: Bold;
+	border:0px solid #1E90FF;
+	border-radius:6px; 
 }
 
 
@@ -327,5 +329,9 @@ QDialog#HelpForm QFrame QLabel {
 	font-weight: normal;
 	color: #DDDDDD;
 	font-size: 9pt;
+	background-color: #424242;
+}
+
+QMainWindow#RovPlugins {
 	background-color: #424242;
 }
